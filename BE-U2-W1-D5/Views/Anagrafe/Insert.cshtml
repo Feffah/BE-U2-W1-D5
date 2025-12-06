@@ -1,0 +1,39 @@
+﻿
+@{
+
+}
+<h1 class="text-center">Registrazione Dati Anagrafici Trasgressori</h1>
+
+<form asp-controller="Anagrafe" asp-action="Insert" method="post">
+    <div class="mb-3">
+        <label class="form-label text-black">Cognome</label>
+        <input type="text" class="form-control" name="Cognome">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label text-black">Nome</label>
+        <input type="text" class="form-control" name="Nome">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label text-black">Indirizzo</label>
+        <input type="text" class="form-control" name="Indirizzo">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label text-black">Città</label>
+        <input type="text" class="form-control" name="Citta">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label text-black">CAP</label>
+        <input type="number" class="form-control" name="CAP">
+    </div>
+    <div class="mb-3">
+        <label class="form-label text-black">Codice Fiscale</label>
+        <input type="text" class="form-control" name="CodiceFiscale">
+    </div>
+
+    <button class="btn btn-primary" type="submit">Salva</button>
+
+</form>
